@@ -46,9 +46,14 @@ input {
   border: 1px solid #dfe1e5;
   border-radius: 20px;
   text-indent: 40px;
+  font-size: 16px;
   background: url(../images/search.png) 13px no-repeat,
     url(../images/Google_mic.png) 540px no-repeat;
   background-size: 3%;
+}
+
+input::placeholder {
+    color: black;
 }
 
 input:hover,
